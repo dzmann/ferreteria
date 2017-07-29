@@ -1,0 +1,264 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: sans-serif;
+}
+
+header{
+	background-color: #A4A4A4;
+	width: 100%;
+}
+
+html{
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+
+	max-height: 100%;
+	background-color:#E6E6E6;
+	
+	margin-bottom: 10%;
+}
+footer{
+	bottom: 0%;
+	position: absolute;
+	width: 100%;
+}
+
+
+
+
+
+
+
+#header{
+	background-color: #000;
+	overflow: auto;
+	width:100%;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: #000;
+	color:#fff;
+	text-decoration: none;
+	padding: 10px 15px ;
+	display: block;
+}
+
+.nav li a:hover{
+	background-color: #424242;
+}
+
+.nav > li{
+	float:left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	z-index: 0 !important; 
+}
+.nav li:hover > ul{
+	display: block;
+	z-index: 0 !important; 
+}
+
+.nav2{
+	margin-left: 60%;
+	color: white;
+	
+}
+
+.nav2 li a:hover{
+	background-color: #424242;
+}
+
+.nav2 li a{
+	background-color: #000;
+	color:#fff;	
+	text-decoration: none;
+	padding: 10px 15px ;
+}
+
+.nav2 li{
+	padding: 10px 15px;
+	display: block;
+	float: left;
+
+}
+
+.imagen_articulo{
+	max-height: 300px;
+
+}
+
+.articuloLista{
+	display: inline-block;
+	background-color: #F2F2F2;
+	z-index: 5;
+}
+.formulario{
+	position: relative;
+	max-width: 100%;
+	
+
+}
+
+#paginacion{
+	font-size: 25px;
+}
+
+
+
+#enviarConsulta{
+	font-size: 20px;
+
+}
+
+#mensajeEnviado{
+	font: 120% sans-serif;
+}
+
+.inputC{
+	width: 300px;
+  border: 1px solid #393939;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+}
+
+textarea{
+	width: 300px;
+  border: 1px solid 393939;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+}
+
+.celdaMsgP{
+	min-width: 200px;
+}
+
+.inputArt{
+	width: 300px;
+  border: 1px solid 393939;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+}
+
+.inputLogin{
+  border: 1px solid #393939;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+}
+
+.formularioNuevoArticulo{
+	position: relative;
+	width: 100%
+}
+.formularioLogin{
+	position: relative;
+	left: 30%;
+	max-width: 300px;
+}
+
+
+.tablaSucursales th{
+
+	padding: 5px;
+}
+
+.tablaGaleria{
+	border: 1px solid #393939;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 2px 3px 4px #040E26;
+	padding: 2px;
+}
+
+.contenedor{
+	position: relative;
+	width: 100%;
+
+}
+
+
+
+.footer{
+	margin: auto;
+	border: 1px solid #393939;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #fff;
+	width: 80%;
+	position: block;
+	bottom: 0px;		
+    -webkit-box-shadow: -3px -12px 42px -3px rgba(0,0,0,1);
+-moz-box-shadow: -3px -12px 42px -3px rgba(0,0,0,1);
+box-shadow: -3px -12px 42px -3px rgba(0,0,0,1);
+}
+
+
+
+.tablaNosotros th{
+	padding: 20px;
+}
+
